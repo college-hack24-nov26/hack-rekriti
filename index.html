@@ -45,25 +45,54 @@
 
     <!-- Auth/Role Selection View -->
     <div id="auth-view" class="view-container active">
+        <!-- Cinematic animated welcome panel -->
+        <section class="cinematic-hero" aria-label="EcoNova smart sustainability introduction">
+            <div class="hero-orb orb-one"></div>
+            <div class="hero-orb orb-two"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-floating-icon icon-one"><i class="fa-solid fa-recycle"></i></div>
+            <div class="hero-floating-icon icon-two"><i class="fa-solid fa-leaf"></i></div>
+            <div class="hero-floating-icon icon-three"><i class="fa-solid fa-truck-fast"></i></div>
+            <div class="hero-floating-icon icon-four"><i class="fa-solid fa-earth-asia"></i></div>
+            <div class="hero-copy">
+                <span class="hero-eyebrow"><span class="live-dot"></span> <span data-i18n="hero_eyebrow">SMARTER CITIES. CLEANER TOMORROW.</span></span>
+                <h2><span data-i18n="hero_title_one">Waste less.</span><br><span data-i18n="hero_title_two">Live greener.</span></h2>
+                <p data-i18n="hero_description">Technology and sustainability working together for a cleaner, smarter world.</p>
+                <div class="hero-mini-stats">
+                    <div><i class="fa-solid fa-satellite-dish"></i><span data-i18n="smart_monitoring">Smart monitoring</span></div>
+                    <div><i class="fa-solid fa-route"></i><span data-i18n="optimized_collection">Optimized collection</span></div>
+                    <div><i class="fa-solid fa-seedling"></i><span data-i18n="greener_communities">Greener communities</span></div>
+                </div>
+                <div class="hero-scroll-hint"><span></span> <span data-i18n="smarter_way">A smarter way forward</span></div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-ring ring-one"></div>
+                <div class="visual-ring ring-two"></div>
+                <div class="visual-glow"></div>
+                <img src="smart_eco_bin_clean.png" alt="EcoNova smart waste bin" class="cinematic-bin">
+                <div class="floating-status status-top"><span class="status-pulse"></span><div><strong>Eco monitoring</strong><small>System ready</small></div></div>
+                <div class="floating-status status-bottom"><i class="fa-solid fa-leaf"></i><div><strong>Cleaner future</strong><small>Powered by smart technology</small></div></div>
+            </div>
+        </section>
         <div class="auth-card reveal-anim">
             <img src="smart_eco_bin_clean.png" alt="Smart Waste 3D" class="hero-3d-image">
-            <div class="logo">
+            <div class="auth-topline"><div class="logo">
                 <i class="fa-solid fa-leaf"></i>
                 <h1>EcoNova</h1>
-            </div>
+            </div><select class="auth-language" aria-label="Choose language" onchange="app.setLanguage(this.value)" id="auth-lang-select"><option value="en">English</option><option value="hi">हिंदी</option><option value="mr">मराठी</option></select></div>
 
             <div class="auth-tabs">
-                <button id="tab-login" class="auth-tab active" onclick="app.setAuthMode('login')">Login</button>
-                <button id="tab-signup" class="auth-tab" onclick="app.setAuthMode('signup')">Sign Up</button>
+                <button id="tab-login" class="auth-tab active" data-i18n="login_tab" onclick="app.setAuthMode('login')">Login</button>
+                <button id="tab-signup" class="auth-tab" data-i18n="signup_tab" onclick="app.setAuthMode('signup')">Sign Up</button>
             </div>
 
             <form id="auth-form" class="auth-form" onsubmit="app.handleAuth(event)">
                 <div class="form-group">
-                    <label>Username / Email</label>
-                    <input type="text" id="auth-username" placeholder="Enter your username" required>
+                    <label data-i18n="username_email">Username / Email</label>
+                    <input type="text" id="auth-username" data-i18n="username_placeholder" placeholder="Enter your username" required>
                 </div>
                 <div class="form-group">
-                    <label>Password</label>
+                    <label data-i18n="password_label">Password</label>
                     <input type="password" id="auth-password" placeholder="••••••••" required>
                 </div>
                 <button type="submit" id="auth-submit-btn" class="btn primary-btn w-100">Login to Dashboard</button>
@@ -506,7 +535,7 @@
             </div>
             <div class="modal-footer">
                 <button onclick="app.closeModal()" class="btn secondary-btn">Cancel</button>
-                <button oncligit ck="app.submitModal()" class="btn primary-btn">Save Bin</button>
+                <button onclick="app.submitModal()" class="btn primary-btn">Save Bin</button>
             </div>
         </div>
     </div>
