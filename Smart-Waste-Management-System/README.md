@@ -74,4 +74,11 @@ EcoNova is a state-of-the-art, IoT-enabled Smart Waste Management System designe
 By combining **Quantum AI** with **Real-time IoT**, EcoNova transforms waste management from a routine task into an intelligent, data-driven utility, paving the way for sustainable smart cities.
 
 ---
+## 👥 Team Members
+
+- **Isha Shelke** ([@IshaShelke](https://github.com/IshaShelke))
+- **Srushti Thigale** ([@srushtithigale2711](https://github.com/srushtithigale2711))
+
+---
+
 **Developed with ❤️ for a Greener Tomorrow.**
