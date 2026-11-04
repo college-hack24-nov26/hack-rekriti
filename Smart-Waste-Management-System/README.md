@@ -40,8 +40,8 @@ EcoNova is a state-of-the-art, IoT-enabled Smart Waste Management System designe
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Rohit22o9/Smart-Waste-Management-System.git
-   cd Smart-Waste-Management-System
+   git clone https://github.com/college-hack24-nov26/hack-rekriti.git
+   cd hack-rekriti
    ```
 
 2. **Install Dependencies**
@@ -78,6 +78,7 @@ By combining **Quantum AI** with **Real-time IoT**, EcoNova transforms waste man
 
 - **Isha Shelke** ([@IshaShelke](https://github.com/IshaShelke))
 - **Srushti Thigale** ([@srushtithigale2711](https://github.com/srushtithigale2711))
+- **Vrushali** ([@Vrushali-726](https://github.com/Vrushali-726))
 
 ---
 
