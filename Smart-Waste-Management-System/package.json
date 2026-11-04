@@ -1,24 +1,29 @@
 {
-  "name": "smart-waste-management-system",
+  "name": "econova-smart-waste-management",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "IoT and Quantum-Inspired AI Smart Waste Management System",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "simulate": "node scripts/simulate_sensors.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rohit22o9/Smart-Waste-Management-System.git"
+    "url": "git+https://github.com/college-hack24-nov26/hack-rekriti.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "iot",
+    "esp32",
+    "smart-waste",
+    "quantum-computing",
+    "qaoa",
+    "firebase",
+    "mongodb"
+  ],
+  "author": "EcoNova Team (Isha Shelke, Srushti Thigale, Vrushali)",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Rohit22o9/Smart-Waste-Management-System/issues"
-  },
-  "homepage": "https://github.com/Rohit22o9/Smart-Waste-Management-System#readme",
+  "homepage": "https://github.com/college-hack24-nov26/hack-rekriti#readme",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
